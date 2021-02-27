@@ -1,0 +1,8 @@
+#Exercício 5
+a = float(input('Digite o primeiro número: '))
+b = float(input('Digite o segundo número: '))
+c = float(input('Digite o terceiro número: '))
+if a + b == c:
+  print('A soma de',a,'com',b,'é igual à',c)
+else:
+  print('A soma de',a,'com',b,'não é igual à',c)

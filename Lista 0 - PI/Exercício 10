@@ -1,0 +1,16 @@
+#Exercício 10
+a = float(input('Digite um número: '))
+b = float(input('Digite um número: '))
+c = float(input('Digite um número: '))
+if a > b and b > c:
+  print('Em ordem crescente: ',a,b,c)
+elif b > a and a > c:
+  print('Em ordem crescente: ',b,a,c)
+elif c > b and b > a:
+  print('Em ordem crescente: ',c,b,a)
+elif a > b and c > b and a > c:
+  print('Em ordem crescente: ',a,c,b)
+elif b > a and c > a and b > c:
+  print('Em ordem crescente: ',b,c,a)
+else:
+  print('Em ordem crescente: ',c,a,b)

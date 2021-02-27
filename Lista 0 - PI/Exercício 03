@@ -1,0 +1,6 @@
+#Exercício 3
+n = int(input('Qual a temperatura de Hoje?'))
+if n >= 30:
+  print(n,'º Celsius é muito Quente.')
+else:
+  print(n,'º Celsius não é muito Quente.')

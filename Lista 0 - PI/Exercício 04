@@ -1,0 +1,10 @@
+#Exercício 4
+a = float(input('Digite o primeiro número: '))
+b = float(input('Digete o segundo número: '))
+c = float(input('Digite o terceiro número: '))
+if a > b and a > c:
+  print('O maior desses números é o', a)
+elif b > a and b > c:
+  print('O maior desses números é o', b)
+else:
+  print('O maior desses números é o', c)

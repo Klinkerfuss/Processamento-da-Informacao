@@ -1,0 +1,10 @@
+#Lista 0
+#Exercício 2
+x=int(input('Entre com o primeiro número:'))
+y=int(input('Entre com o segundo número:' ))
+if x > y:
+  print(x, 'É maior que', y)
+elif x==y:
+  print('Os números são iguais.')
+else:
+  print(y, 'É maior que', x)
